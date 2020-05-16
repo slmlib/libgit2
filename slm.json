@@ -1,0 +1,16 @@
+{
+    "headers:": {
+        "git2.h": "libgit2/include/git2.h",
+        "git2": "libgit2/include/git2"
+    },
+    "binaries": {
+        "unix": {
+            "libgit2.so": "build/libgit2.so.1.0.0"
+        }
+    },
+    "build": {
+        "builtin": "cmake",
+        "folder": "libgit2",
+        "target": "git2"
+    }
+}
