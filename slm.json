@@ -9,8 +9,6 @@
         }
     },
     "build": {
-        "builtin": "cmake",
-        "folder": "libgit2",
-        "target": "git2"
+        "all": "./build.sh"
     }
 }
